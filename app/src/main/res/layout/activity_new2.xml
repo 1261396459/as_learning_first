@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <EditText
+        android:id="@+id/new2_theme"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="set theme"
+        />
+
+    <EditText
+        android:id="@+id/new2_type"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="set type"
+        />
+
+    <EditText
+        android:id="@+id/new2_time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="set time"
+        />
+
+    <EditText
+        android:id="@+id/new2_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="set content"
+        />
+
+    <Button
+        android:id="@+id/new2_finish"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="finish"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/new2_switch"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="switch"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

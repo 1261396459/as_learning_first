@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+        <com.example.notebook10.Title
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.example.notebook10.Title>
+
+        <ImageView
+            android:id="@+id/Head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/head"
+            android:layout_marginTop="80dp"
+            />
+
+        <EditText
+            android:layout_marginTop="80dp"
+            android:id="@+id/Account"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:hint="输入账号"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:drawableLeft="@drawable/account_unselect"
+            android:drawablePadding="2dp"
+            />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:hint="输入密码"
+            android:textSize="16dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password_unselect"
+            android:drawablePadding="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+                <TextView
+                    android:id="@+id/记住密码"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="记住密码"
+                    />
+
+                <TextView
+                    android:id="@+id/忘记密码"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="忘记密码？"
+                    android:textColor="#00BCD4"
+                    android:layout_marginLeft="80dp"
+                    />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/an_ya"
+            android:text="登录"
+            android:layout_marginTop="20dp"
+            />
+
+</LinearLayout>

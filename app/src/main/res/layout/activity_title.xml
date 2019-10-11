@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+>
+
+    <TextView
+        android:id="@+id/tt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="返回"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/back"
+        />
+
+    <TextView
+        android:id="@+id/tt_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="登录"
+        android:textColor="#FFE600"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tt_edit1"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="返回"
+        android:textColor="#00000000"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tt_edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="返回"
+        android:textColor="#00000000"
+        android:textSize="20dp"
+        />
+
+
+</LinearLayout>

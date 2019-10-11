@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/编辑事件信息"
+    android:background="#e5e5e5"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp" 
+        android:background="#FFEB3B"
+        />
+    
+    <RelativeLayout
+        android:id="@+id/选泽事件"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_button"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/tv_1"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_button"/>
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/tv_2"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_button"/>
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/tv_3"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_button"/>
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv_1"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_button"/>
+
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv_2"
+            android:layout_toRightOf="@+id/tv_5"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_button"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/选择时间"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/finish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束时间："
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/t_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2000-01-01 00:00"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/finish_time"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/内容编辑"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容:"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="2dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+        
+    </LinearLayout>
+
+
+</LinearLayout>
